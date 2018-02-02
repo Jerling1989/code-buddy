@@ -1,5 +1,9 @@
+.clear {
+	clear: both;
+}
 
 
+/* HEADER/MENU STYLES */
 #menu-bar {
 	width: 100%;
 	height: 40px;
@@ -40,7 +44,6 @@
 	float: left;
 	border-right: 1px solid grey;
 	width: 59px;
-	/*height: 100%;*/
 	margin: auto;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -52,6 +55,13 @@
 }
 
 
+/* CODE CONTAINER STYLES */
+.code-container {
+	background-color: blue;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
 
 
 
