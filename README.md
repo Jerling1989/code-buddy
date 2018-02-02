@@ -12,4 +12,5 @@ For this project I made my own version of web apps like "CodePen" or "JS Bin". I
 - This image is a great display of what happens when the user decides to take advantage of what this tool is meant to provide. Once a new container is opened, like the CSS Container, all of the open containers automatically adjust width to take up equal room on the page. In this example the H1 tag was wrapped in a div with a unique id and some custom CSS styling was added to both of them, manifesting in the results tab once the "RUN CODE" button is hit again.
 ![CSS ADJUST](assets/img/read_me/css-adjust.png)
 
+- This last image shows how this app allows users the ability to mess around with the holy trinity of Front End design: HTML, CSS, and JavaScript. This is a really fun web app that is great for beginners and experienced users alike to test some code!
 ![JS ADJUST](assets/img/read_me/js-adjust.png)
