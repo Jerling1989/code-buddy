@@ -98,9 +98,12 @@ h1 {
 }
 
 .code-badge {
+	width: 40px;
+	height: auto;
 	position: absolute;
 	right: 5px;
 	top: 5px;
+	z-index: 1;
 }
 
 #CSS-container, #JS-container {
@@ -110,9 +113,8 @@ h1 {
 iframe {
 	width: 100%;
 	height: 100%;
-	border: 1px dotted black;
 	position: relative;
-	left: 20px;
+	z-index: -1;
 }
 
 #html-code {
