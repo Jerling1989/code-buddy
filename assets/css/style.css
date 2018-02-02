@@ -1,11 +1,3 @@
-
-h1 {
-	font-family: 'Pacifico', cursive;
-	font-size: 20px;
-	font-weight: bold;
-	color: white;
-}
-
 .clear {
 	clear: both;
 }
@@ -25,6 +17,13 @@ h1 {
 	float: left;
 }
 
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
 #button-div {
 	float: right;
 	padding-top: 10px;
@@ -40,7 +39,6 @@ h1 {
 #run-code:hover {
 	font-weight: bolder;
 }
-
 
 #toggles {
 	width: 240px;
@@ -82,7 +80,7 @@ h1 {
 }
 
 
-/* CODE CONTAINER STYLES */
+/* CODE-CONTAINER/RESULTS DIV STYLES */
 .code-container {
 	height: 100%;
 	width: 50%;
@@ -111,17 +109,6 @@ h1 {
 	z-index: 1;
 }
 
-#result-badge {
-	text-align: center;
-	font-family: 'Bangers', cursive;
-	font-size: 20px;
-	width: 60px;
-	padding: 2px;
-	border: 2px solid black;
-	background-color: red;
-	color: white;
-}
-
 #CSS-container, #JS-container {
 	display: none;
 }
@@ -133,6 +120,8 @@ iframe {
 	z-index: -1;
 }
 
+
+/* CODE-CONTAINER/RESULTS DIV BADGES */
 #html-code {
 	color: #fff356;
 }
@@ -145,7 +134,13 @@ iframe {
 	color: #568eff;
 }
 
-
-
-
-
+#result-badge {
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 20px;
+	width: 60px;
+	padding: 2px;
+	border: 2px solid black;
+	background-color: red;
+	color: white;
+}
