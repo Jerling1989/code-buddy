@@ -57,12 +57,39 @@
 
 /* CODE CONTAINER STYLES */
 .code-container {
-	background-color: blue;
 	height: 100%;
 	width: 50%;
 	float: left;
+	position: relative;
 }
 
+.code-container textarea {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-right: 1px solid grey;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 5px;
+}
+
+.code-badge {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+#css-container, #js-container {
+	display: none;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: 1px dotted black;
+	position: relative;
+	left: 20px;
+}
 
 
 
