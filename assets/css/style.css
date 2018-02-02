@@ -37,7 +37,6 @@
 	top: 8px;
 	border: 1px solid grey;
 	border-radius: 5px; 
-
 }
 
 #toggles li {
@@ -52,6 +51,11 @@
 
 #result-btn {
 	border-right: none !important;
+	padding-right: 1px !important;
+}
+
+.selected {
+	background-color: grey;
 }
 
 
@@ -90,6 +94,8 @@ iframe {
 	position: relative;
 	left: 20px;
 }
+
+
 
 
 

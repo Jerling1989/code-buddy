@@ -4,3 +4,8 @@ var headerHeight = $('#menu-bar').height();
 var codeContainerHeight = windowHeight - headerHeight;
 
 $('.code-container').height(codeContainerHeight + 'px');
+
+
+$('.toggle-btn').click(function() {
+	$(this).toggleClass('selected');
+});
