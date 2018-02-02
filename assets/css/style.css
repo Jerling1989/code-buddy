@@ -1,3 +1,11 @@
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
 .clear {
 	clear: both;
 }
@@ -7,13 +15,11 @@
 #menu-bar {
 	width: 100%;
 	height: 40px;
-	background-color: #E0E0E0;
+	background-color: black;
 	border-bottom: 1px solid grey;
 }
 
 #logo {
-	font-size: 18px;
-	font-weight: bold;
 	padding-top: 10px;
 	padding-left: 20px;
 	float: left;
@@ -27,6 +33,8 @@
 
 #run-code {
 	font-size: 16px;
+	color: white;
+	background-color: green;
 }
 
 #toggles {
@@ -34,8 +42,8 @@
 	height: 24px;
 	margin: auto;
 	position: relative;
-	top: 8px;
-	border: 1px solid grey;
+	top: 6px;
+	border: 1px solid black;
 	border-radius: 5px; 
 }
 
@@ -47,6 +55,14 @@
 	padding-top: 4px;
 	padding-bottom: 4px;
 	text-align: center;
+	background-color: #343436;
+	color: white;
+	font-family: 'Dhurjati', sans-serif;
+	font-size: 20px;
+}
+
+#toggles li:hover {
+	font-size: 22px;
 }
 
 #result-btn {
@@ -55,7 +71,9 @@
 }
 
 .selected {
-	background-color: grey;
+	background-color: grey !important;
+	color: black !important;
+	border-right: 1px solid #343436 !important;
 }
 
 
