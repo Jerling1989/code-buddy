@@ -75,6 +75,7 @@
 	font-family: monospace;
 	font-size: 16px;
 	padding: 5px;
+	box-sizing: border-box;
 }
 
 .code-badge {
