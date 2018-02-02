@@ -42,12 +42,9 @@ h1 {
 
 #toggles {
 	width: 240px;
-	height: 24px;
 	margin: auto;
 	position: relative;
 	top: 6px;
-	border: 1px solid black;
-	border-radius: 5px; 
 }
 
 #toggles li {
