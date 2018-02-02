@@ -6,7 +6,7 @@ For this project I made my own version of web apps like "CodePen" or "JS Bin". I
 - This first image shows what the user will see upon first loading the site. The only two tabs that are automatically open upon page load are the HTML Container and the Results Container. The HTML code is prefilled with the traditional "Hello World!" output.
 ![INTRO](assets/img/read_me/intro.png)
 
-- If the user were to test the app at this point by clicking the "RUN CODE" button, they would be assured that everything is copacetic by the "Hello World!" heading displaying in the Results Container.
+- If the user were to test the app at this point by clicking the "RUN CODE" button, they would be assured that everything is copacetic by the "Hello World!" heading displayed in the Results Container.
 ![FIRST RUN](assets/img/read_me/first-run.png)
 
 ![CSS ADJUST](assets/img/read_me/css-adjust.png)
