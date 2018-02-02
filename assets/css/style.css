@@ -90,10 +90,11 @@ h1 {
 	height: 100%;
 	border: none;
 	border-right: 1px solid grey;
-	font-family: monospace;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 16px;
 	padding: 5px;
 	box-sizing: border-box;
+	background-color: #343436;
 }
 
 .code-badge {
