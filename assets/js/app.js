@@ -22,3 +22,8 @@ $('.toggle-btn').click(function() {
 	$('.code-container').css('width', width + '%');
 
 });
+
+
+$('#run-code').click(function() {
+	$('iframe').contents().find('html').html($('#html-code').val());
+});
