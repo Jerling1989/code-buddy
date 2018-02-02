@@ -115,6 +115,18 @@ iframe {
 	left: 20px;
 }
 
+#html-code {
+	color: #fff356;
+}
+
+#css-code {
+	color: #ff5656;
+}
+
+#js-code {
+	color: #568eff;
+}
+
 
 
 
