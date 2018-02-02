@@ -8,4 +8,7 @@ $('.code-container').height(codeContainerHeight + 'px');
 
 $('.toggle-btn').click(function() {
 	$(this).toggleClass('selected');
+	var activeDiv = $(this).html();
+
+	$('#' + activeDiv + '-container').toggle();
 });
