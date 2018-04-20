@@ -55,7 +55,7 @@ h1 {
 	padding-top: 4px;
 	padding-bottom: 4px;
 	text-align: center;
-	background-color: #343436;
+	background-color: #5b6467;
 	color: white;
 	font-family: 'Dhurjati', sans-serif;
 	font-size: 20px;
@@ -124,12 +124,27 @@ iframe {
 	color: #fff356;
 }
 
+#html-code:focus {
+	outline: none !important;
+	border: 1px solid #fff356;
+}
+
 #css-code {
 	color: #ff5656;
 }
 
+#css-code:focus {
+	outline: none !important;
+	border: 1px solid #ff5656;
+}
+
 #js-code {
 	color: #568eff;
+}
+
+#js-code:focus {
+	outline: none !important;
+	border: 1px solid #568eff;
 }
 
 #result-badge {
